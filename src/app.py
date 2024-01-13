@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.title("Empleatronix-GRS")
 st.text("Todos los datos sobre los empleados en una aplicación")
 
-df = pd.read_csv("./data/employees.csv")
+df = pd.read_csv("/mount/src/streamlit-employees-grs/src/data/employees.csv")
 st.write(df)
 
 st.divider()
